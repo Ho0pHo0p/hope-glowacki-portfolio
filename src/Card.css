@@ -1,0 +1,23 @@
+.Card {
+  padding: 2rem;
+  border: 1px solid var(--font-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.Card div {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.Card h3 {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0px;
+}
+
+.Card p {
+  margin: 0px;
+}

@@ -1,6 +1,9 @@
 .BodyDesktop {
   margin: auto;
   width: 85%;
+  display: flex;
+  flex-flow: column;
+  gap: 1.5rem;
 }
 
 .BodyDesktop h1 {

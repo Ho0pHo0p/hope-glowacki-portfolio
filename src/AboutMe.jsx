@@ -1,7 +1,11 @@
 export default function AboutMe(){
   return(
-    <section className="AboutMe">
-      <h3>About Me</h3>
-    </section>
+    <>
+      <p>img</p>
+      <div>
+      <h3>{title}</h3>
+      <p>{text}</p>
+      </div>
+    </>
   )
 }
