@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=League+Spartan:wght@200;400;500;600;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 17px;
+
+  --primary-font: 'Libre Baskerville', serif;
+  --header-font: 'League Spartan', serif;
+  --p-font: 'Baskervville', serif;
+
+  --main-bg: #F2EEEB; 
+  --accent-color1:#F2B3D6; 
+  --accent-color2: #B7AEF2;
+  --accent-color3: #238C6E;
+  --font-color: #0D0D0D; 
+
+  background-color: #F2EEEB;
+  color: #0D0D0D; 
+}

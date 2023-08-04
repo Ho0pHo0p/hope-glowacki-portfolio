@@ -1,0 +1,19 @@
+.BodyDesktop {
+  margin: auto;
+  width: 85%;
+}
+
+.BodyDesktop h1 {
+  font-family: var(--header-font);
+  font-size: 4rem;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.BodyDesktop h2 {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
