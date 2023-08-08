@@ -9,7 +9,7 @@ export default function MoreProjects(){
     <div>
       <h3>More Projects</h3>
       <div className="MoreProjects">
-       <Project title="Writing Outline Tool" summary="Plan out your novel or screenplay using the eight sequence outline model" role="Web Developer"  github="https://github.com/Ho0pHo0p/writing-outline-tool" website="https://glowing-cendol-15c4f5.netlify.app" image={imageSequence} skills={
+       <Project title="Writing Outline Tool" summary="Plan out your novel or screenplay using the eight sequence outline model" role="Web Developer"  github="https://github.com/Ho0pHo0p/writing-outline-tool" website="https://writing-outline-tool.netlify.app" image={imageSequence} skills={
       <ul>
         <li>React</li>
         <li>HTML</li>
