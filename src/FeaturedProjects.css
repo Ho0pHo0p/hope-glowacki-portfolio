@@ -14,3 +14,17 @@
   object-fit: contain;
   border-radius: 10px;
 }
+
+.BodyMobile .FeaturedProjects .Info {
+  display: flex;
+  flex-flow: column-reverse;
+  gap: 20px;
+}
+
+.BodyMobile .FeaturedProjects img{
+  width: 100%;
+}
+
+.BodyMobile .FeaturedProjects .Project .tags {
+  display: flex;
+}

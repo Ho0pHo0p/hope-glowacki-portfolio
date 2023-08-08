@@ -1,0 +1,10 @@
+.MobileMenu {
+  position: sticky;
+  background-color: var(--main-bg);
+  width: 200px;
+}
+
+.MobileMenu .NavBar ul{
+  display: flex;
+  flex-flow: column;
+}

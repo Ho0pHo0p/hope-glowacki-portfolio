@@ -2,14 +2,21 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 100px;
 }
 
 .MoreProjects img {
   width: 100%;
+  object-fit: contain;
   border-radius: 10px;
 }
 
 .MoreProjects h4 {
   margin: 1rem 0px;
 }
+
+.BodyMobile .MoreProjects {
+  display: flex;
+  flex-flow: column;
+}
+

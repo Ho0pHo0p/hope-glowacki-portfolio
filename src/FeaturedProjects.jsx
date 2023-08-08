@@ -1,8 +1,17 @@
 import "./FeaturedProjects.css"
 import Project from "./Project"
-import image from "./assets/parks.png"
+import imageDesktop from "./assets/parks.png"
+import imageMobile from "./assets/mobileParks.png"
 
-export default function FeaturedProjects(){
+export default function FeaturedProjects({imageType}){
+  let image;
+
+  if(imageType === "imageDesktop"){
+    image = imageDesktop
+  } else {
+    image = imageMobile
+  }
+
   return(
     <section id="projects" className="FeaturedProjects">
        <h3 >Featured Projects</h3>

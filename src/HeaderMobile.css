@@ -1,6 +1,13 @@
 .HeaderMobile {
+  position: relative;
   margin: 1rem;
   text-align: right;
   font-size: 2rem;
   color: var(--accent-color3);
 }
+
+.HeaderMobile .bars {
+  cursor: pointer;
+  position: sticky;
+}
+

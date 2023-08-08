@@ -6,17 +6,17 @@ import "./Contact.css"
 export default function Contact(){
   return(
     <section className="Contact" id="contact">
-        <a>
+        <a href="mailto:hopeglowacki@gmail.com">
           <span>
               <FontAwesomeIcon icon={faEnvelope} /> hopeglowacki@gmail.com
           </span>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/hope-glowacki" target="_blank">
           <span>
               <FontAwesomeIcon icon={faLinkedin} />  LinkedIn
           </span>
           </a>
-          <a href="">
+          <a href="https://github.com/Ho0pHo0p" target="_blank">
           <span>
               <FontAwesomeIcon icon={faGithubSquare} />  Github
           </span>

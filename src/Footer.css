@@ -6,5 +6,25 @@
   align-items: center;
   justify-content: center;
   color: var(--main-bg);
-  width: 100%;
+  padding: 1rem;
+}
+
+.FooterMobile {
+  height: 200px;
+  background-color: var(--main-color);
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  justify-content: left;
+  color: var(--main-bg);
+  padding: 1rem;
+}
+
+.FooterMobile .Contact {
+  flex-flow: column;
+  padding: 0px;
+}
+
+.FooterMobile p {
+  align-self: center;
 }
