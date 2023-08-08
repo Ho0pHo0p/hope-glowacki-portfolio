@@ -22,8 +22,8 @@ export default function Project({title, summary, role, skills, collaborators, gi
       </li>}
     </ul>
     <div className="links">
-      <a href={github}>View Github</a>
-      <a href={website}>View Website</a>
+      <a href={github} target="_blank">View Github</a>
+      <a href={website} target="_blank">View Website</a>
     </div>
     </div>
   )

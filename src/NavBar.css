@@ -16,8 +16,14 @@
   border-left: 1px solid var(--font-color);
   padding: 30px 20px;
   cursor: pointer;
+  transition: all .2s ease-in;
 }
 
 .NavBar li:hover {
   background-color: var(--main-color);
+}
+
+.NavBar a {
+  color: var(--font-color);
+  text-decoration: none;
 }

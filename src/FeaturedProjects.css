@@ -1,13 +1,11 @@
 .FeaturedProjects {
   margin-top: 2rem;
+  padding-top: 1rem;
 }
 
 .FeaturedProjects .Info{
   display: flex;
-  gap: 1rem;
-}
-
-.FeaturedProjects .Info {
+  gap: 2rem;
   margin: 1rem 0px;
 }
 

@@ -60,4 +60,5 @@
 
 .Project a:hover {
   background-color: var(--main-color);
+  transition: all .2s ease-in-out;
 }

@@ -16,3 +16,11 @@
   background-color: #F2EEEB;
   color: #0D0D0D; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}

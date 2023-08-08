@@ -3,7 +3,7 @@ import image from './assets/image.png'
 
 export default function AboutMe(){
   return(
-    <section className="AboutMe" id="#AboutMe">
+    <section className="AboutMe">
       <img src={image}></img>
       <div>
         <h4>About Me</h4>

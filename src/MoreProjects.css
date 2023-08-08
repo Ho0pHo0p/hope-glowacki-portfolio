@@ -1,7 +1,7 @@
 .MoreProjects {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 2rem;
 }
 

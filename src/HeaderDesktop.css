@@ -10,7 +10,19 @@
 
 .HeaderDesktop h3 {
   padding-left: 20px;
+  width: 2rem;
   font-family: var(--primary-font);
   font-style: italic;
   cursor:pointer;
+  transition: all 1s ease-in-out;
+}
+
+.HeaderDesktop h3:hover {
+  width: 2rem;
+  rotate: 360deg;
+}
+
+.HeaderDesktop a {
+  color: var(--font-color);
+  text-decoration: none;
 }
