@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faMarsAndVenus } from "@fortawesome/free-solid-svg-icons"
 import "./HeaderMobile.css"
 import { useState } from "react"
 import MobileMenu from "./MobileMenu"
@@ -11,10 +11,17 @@ export default function HeaderMobile(){
     setMenu(!menu)
   }
 
+  const hideMenu = () => {
+    setMenu(false)
+  }
+
   return (
     <header className="HeaderMobile">
-      <FontAwesomeIcon icon={faBars} onClick={toggleMenu} className="bars"/>
-      {menu && <MobileMenu />}
+      {/* <FontAwesomeIcon icon={faMarsAndVenus} onClick={toggleMenu}className="bars"/> */}
+      <h2 onClick={toggleMenu}>H</h2>
+      <div>
+      {menu && <MobileMenu hideMenu={hideMenu}/>}
+      </div>
     </header>
   )
 }
