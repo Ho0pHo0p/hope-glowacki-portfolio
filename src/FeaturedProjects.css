@@ -1,4 +1,8 @@
 .FeaturedProjects {
+  margin-top: 2rem;
+}
+
+.FeaturedProjects .Info{
   display: flex;
   gap: 1rem;
 }
@@ -12,4 +16,3 @@
   object-fit: contain;
   border-radius: 10px;
 }
-
