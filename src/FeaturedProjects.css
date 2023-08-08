@@ -1,0 +1,15 @@
+.FeaturedProjects {
+  display: flex;
+  gap: 1rem;
+}
+
+.FeaturedProjects .Info {
+  margin: 1rem 0px;
+}
+
+.FeaturedProjects img {
+  width: 50%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+

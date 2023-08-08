@@ -1,0 +1,58 @@
+.Project {
+  margin-top: 2rem;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.Project h4{
+  font-size: 1.5rem;
+}
+
+.Project .title p {
+  line-height: 2rem;
+}
+
+.Project .tags {
+  padding: 0px;
+  display: flex;
+  flex-flow: column;
+  gap: 24px;
+}
+
+.Project .tags .name {
+  list-style: none;
+  font-weight: 600;
+  padding: 0px;
+}
+
+.Project .tags li{
+  font-weight: 400;
+  list-style: none;
+}
+
+.Project .tags ul {
+  padding: 0px;
+}
+
+.Project .tags .skills ul {
+  padding-left: 30px;
+}
+
+.Project .tags .skills li {
+  list-style: disc;
+}
+
+.Project .links {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.Project a {
+  color: var(--font-color);
+  text-decoration: none;
+  border: 2px solid; 
+  padding:10px 15px;
+  font-weight: 600;
+  font-size: 17px;
+}

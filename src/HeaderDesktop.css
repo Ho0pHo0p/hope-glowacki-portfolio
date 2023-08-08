@@ -10,5 +10,6 @@
 
 .HeaderDesktop h3 {
   padding-left: 20px;
+  font-family: var(--primary-font);
   font-style: italic;
 }

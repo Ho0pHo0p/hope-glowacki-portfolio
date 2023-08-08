@@ -5,9 +5,8 @@
 
 .NavBar ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  column-gap: 1rem;
   padding: 0px;
   margin: 0px;
   text-align: center;
@@ -16,5 +15,6 @@
 .NavBar li{
   list-style: none;
   border-left: 1px solid var(--font-color);
-  padding: 17px;
+  padding: 17px 27px 17px 27px;
+  cursor: pointer;
 }

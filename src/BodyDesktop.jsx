@@ -1,17 +1,17 @@
-import Hero from "./Hero"
+import Name from "./Name"
 import "./BodyDesktop.css"
-import Card from "./Card"
-import { textObj } from "./text"
+import AboutMe from "./AboutMe"
+import FeaturedProjects from "./FeaturedProjects"
+import MoreProjects from "./MoreProjects"
 
 export default function BodyDesktop(){
-  const text = textObj;
 
   return(
     <main className="BodyDesktop">
-      <Hero />
-      <Card className="AboutMe" title="About Me" text={text.aboutMe}/>
-      <Card className="Projects" title="Projects" text={text.projects}/>
-      <Card className="Contact" title="Contact" text={text.contact}/>
+      <Name />
+      <AboutMe />
+      <FeaturedProjects />
+      <MoreProjects />
     </main>
   )
 }
