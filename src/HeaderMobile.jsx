@@ -17,8 +17,7 @@ export default function HeaderMobile(){
 
   return (
     <header className="HeaderMobile">
-      {/* <FontAwesomeIcon icon={faMarsAndVenus} onClick={toggleMenu}className="bars"/> */}
-      <h2 onClick={toggleMenu}>H</h2>
+      {menu ? <h2 style={{backgroundColor: 'var(--main-color)'}} onClick={toggleMenu} >H</h2>: <h2 onClick={toggleMenu} >H</h2> }
       <div>
       {menu && <MobileMenu hideMenu={hideMenu}/>}
       </div>
