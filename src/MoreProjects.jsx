@@ -16,7 +16,7 @@ export default function MoreProjects(){
         <li>CSS</li>
       </ul>
     }/>
-       <Project title="Coffee Landing Page" summary="Explore the landing page of a coffee company" role="Web Developer"  github="https://github.com/Ho0pHo0p/coffee-website" website="https://coffee-website-hope.netlify.app" image={imageCoffee}
+       <Project title="Coffee Landing Page" summary="Explore the landing page of a coffee company" role="Web Developer"  github="https://github.com/Ho0pHo0p/coffee-website" website="https://coffee-website-hope.netlify.app" collaborators="Riley Jones - Designer"image={imageCoffee}
        skills={
       <ul>
         <li>JavaScript</li>
