@@ -1,3 +1,3 @@
-export default function BodyMobile(){
+// export default function BodyMobile(){
   
-}
+// }

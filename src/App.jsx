@@ -10,7 +10,7 @@ function App() {
     <>
      {/* <HeaderMobile /> */}
      <HeaderDesktop />
-     <BodyMobile /> 
+     {/* <BodyMobile />  */}
      <BodyDesktop />
     </>
   )
