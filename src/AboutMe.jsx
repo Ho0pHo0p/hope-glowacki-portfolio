@@ -1,6 +1,6 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import "./AboutMe.css"
-import image from './assets/image.png'
+import image from './assets/profile.jpeg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
