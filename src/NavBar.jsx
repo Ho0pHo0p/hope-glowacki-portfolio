@@ -1,4 +1,5 @@
 import "./NavBar.css"
+import resume from "../public/resume.pdf"
 
 export default function NavBar(){
   return (
@@ -7,7 +8,7 @@ export default function NavBar(){
       <a href="#about-me"><li>About Me</li></a>
       <a href="#projects"><li>Projects</li></a>
       <a href="#contact"><li>Contact</li></a>
-      <a download="resume" href="/public/resume.pdf" target="_blank"><li>Resume</li></a>
+      <a download="resume" href={resume} target="_blank"><li>Resume</li></a>
       </ul>
     </nav>
   )
