@@ -7,7 +7,7 @@ export default function NavBar(){
       <a href="#about-me"><li>About Me</li></a>
       <a href="#projects"><li>Projects</li></a>
       <a href="#contact"><li>Contact</li></a>
-      <a href="./src/assets/resume.pdf" target="_blank"><li>Resume</li></a>
+      <a download="resume" href="/src/assets/resume.pdf" target="_blank"><li>Resume</li></a>
       </ul>
     </nav>
   )
