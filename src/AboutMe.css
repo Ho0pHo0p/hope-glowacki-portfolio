@@ -47,3 +47,7 @@
 .BodyMobile .AboutMe div{
   width: 100%;
 }
+
+.BodyMobile .AboutMe img {
+  width: 70%;
+}
