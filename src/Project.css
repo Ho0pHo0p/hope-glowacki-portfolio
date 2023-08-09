@@ -4,6 +4,10 @@
   font-size: 24px;
 }
 
+.Project img {
+  border: 2px solid var(--font-color);
+}
+
 .Project .title {
   max-height: 300px;
   min-height: 175px;
