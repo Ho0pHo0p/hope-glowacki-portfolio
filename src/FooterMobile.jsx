@@ -4,7 +4,7 @@ export default function FooterMobile(){
   return(
     <section className="FooterMobile">
       <Contact />
-      <p>made using React</p>
+      <p>©2023 Hope Glowacki. All rights reserved.</p>
     </section>
   )
 }

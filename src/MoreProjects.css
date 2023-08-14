@@ -1,8 +1,10 @@
 .MoreProjects {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   gap: 2rem;
   margin-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .MoreProjects img {

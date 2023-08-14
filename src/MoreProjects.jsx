@@ -2,6 +2,7 @@ import Project from "./Project"
 import "./MoreProjects.css"
 import imageSequence from "./assets/sequences.png"
 import imageCoffee from "./assets/coffee.png"
+import imagePortfolio from "./assets/portfolio.png"
 
 
 export default function MoreProjects(){
@@ -16,6 +17,16 @@ export default function MoreProjects(){
         <li>CSS</li>
       </ul>
     }/>
+
+    <Project title="Personal Portfolio" summary="Hope Glowacki personal portfolio website" role="Web Developer" website="https://www.hopeglowacki.com" github="https://github.com/Ho0pHo0p/hope-glowacki-portfolio" image={imagePortfolio}
+       skills={
+      <ul>
+        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      }/>
+
        <Project title="Coffee Landing Page" summary="Explore the landing page of a coffee company" role="Web Developer"  github="https://github.com/Ho0pHo0p/coffee-website" website="https://coffee-website-hope.netlify.app" collaborators="Riley Jones - Designer"image={imageCoffee}
        skills={
       <ul>

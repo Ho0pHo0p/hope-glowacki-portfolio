@@ -12,6 +12,7 @@
 
 .FeaturedProjects img {
   width: 50%;
+  height: 100%;
   object-fit: contain;
   border-radius: 10px;
   border: 2px solid var(--font-color);
